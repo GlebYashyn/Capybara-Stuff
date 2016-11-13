@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="991640d28e45456ea308d85b2e04cad1" Name="Diagram1" ZoomLevel="84">
+        <EntityTypeShape EntityType="CapyStuffModel.Anime" Width="1.5" PointX="9.25" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CapyStuffModel.AnimeType" Width="1.5" PointX="12.375" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CapyStuffModel.Author" Width="1.5" PointX="7.875" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CapyStuffModel.Book" Width="1.5" PointX="7.875" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="CapyStuffModel.Category" Width="1.5" PointX="16" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CapyStuffModel.Comment" Width="1.5" PointX="1" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CapyStuffModel.Country" Width="1.5" PointX="0.5" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CapyStuffModel.DeathReason" Width="1.5" PointX="0.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CapyStuffModel.EntityCategory" Width="1.5" PointX="14" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CapyStuffModel.Genre" Width="1.5" PointX="9.125" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CapyStuffModel.Profession" Width="1.5" PointX="0.5" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CapyStuffModel.Role" Width="1.5" PointX="4.25" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="CapyStuffModel.Series" Width="1.5" PointX="11.625" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CapyStuffModel.Status" Width="1.5" PointX="6.625" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="CapyStuffModel.Studio" Width="1.5" PointX="12.375" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CapyStuffModel.URL" Width="1.5" PointX="11.625" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CapyStuffModel.UserEntity" Width="1.5" PointX="6.875" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CapyStuffModel.User" Width="1.5" PointX="4.25" PointY="13.25" IsExpanded="true" />
+        <AssociationConnector Association="CapyStuffModel.FK_Anime_AnimeType" ManuallyRouted="false" />
+        <AssociationConnector Association="CapyStuffModel.FK_Anime_Genres" ManuallyRouted="false" />
+        <AssociationConnector Association="CapyStuffModel.FK_Anime_Studios" ManuallyRouted="false" />
+        <AssociationConnector Association="CapyStuffModel.FK_Comments_Anime" ManuallyRouted="false" />
+        <AssociationConnector Association="CapyStuffModel.FK_EntityCategories_Anime" ManuallyRouted="false" />
+        <AssociationConnector Association="CapyStuffModel.FK_URLs_Anime" ManuallyRouted="false" />
+        <AssociationConnector Association="CapyStuffModel.FK_UserEntities_Anime" ManuallyRouted="false" />
+        <AssociationConnector Association="CapyStuffModel.FK_Authors_Countries" ManuallyRouted="false" />
+        <AssociationConnector Association="CapyStuffModel.FK_Authors_DeathReasons" ManuallyRouted="false" />
+        <AssociationConnector Association="CapyStuffModel.FK_Authors_Professions" ManuallyRouted="false" />
+        <AssociationConnector Association="CapyStuffModel.FK_Books_Authors" ManuallyRouted="false" />
+        <AssociationConnector Association="CapyStuffModel.FK_Series_Authors" ManuallyRouted="false" />
+        <AssociationConnector Association="CapyStuffModel.FK_Books_Genres" ManuallyRouted="false" />
+        <AssociationConnector Association="CapyStuffModel.FK_Books_Series" ManuallyRouted="false" />
+        <AssociationConnector Association="CapyStuffModel.FK_Comments_Book" ManuallyRouted="false" />
+        <AssociationConnector Association="CapyStuffModel.FK_EntityCategories_Books" ManuallyRouted="false" />
+        <AssociationConnector Association="CapyStuffModel.FK_URLs_Books" ManuallyRouted="false" >
+        </AssociationConnector>
+        <AssociationConnector Association="CapyStuffModel.FK_UserEntities_Book" ManuallyRouted="false" />
+        <AssociationConnector Association="CapyStuffModel.FK_EntityCategories_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="CapyStuffModel.FK_Comments_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="CapyStuffModel.FK_Users_Roles" ManuallyRouted="false" />
+        <AssociationConnector Association="CapyStuffModel.FK_UserEntities_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="CapyStuffModel.FK_UserEntities_Users" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
