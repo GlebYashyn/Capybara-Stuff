@@ -874,6 +874,8 @@
     <Content Include="Assets\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Assets\fonts\glyphicons-halflings-regulard41d.eot" />
     <None Include="Scripts\JQuery\jquery-3.1.1.intellisense.js" />
+    <Content Include="Scripts\Bootstrap\bootstrap.js" />
+    <Content Include="Scripts\Bootstrap\bootstrap.min.js" />
     <Content Include="Scripts\JQuery\jquery-3.1.1.js" />
     <Content Include="Scripts\JQuery\jquery-3.1.1.min.js" />
     <Content Include="Scripts\JQuery\jquery-3.1.1.slim.js" />
@@ -924,7 +926,9 @@
   <ItemGroup>
     <Content Include="Scripts\AngularJS\angular-animate.min.js.map" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Scripts\Controllers\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Scripts\JQuery\jquery-3.1.1.slim.min.map" />
   </ItemGroup>
