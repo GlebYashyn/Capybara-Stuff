@@ -22,6 +22,11 @@ namespace Capybara_Stuff.Controllers
             return db.Animes;
         }
 
+        public IQueryable<Anime> GetAnimes(int pageNumber, int recordsPerPage)
+        {
+            return db.Animes.Skip(pageNumber * recordsPerPage).Take(recordsPerPage);
+        }
+
         // GET: api/Anime/5
         [ResponseType(typeof(Anime))]
         public IHttpActionResult GetAnime(int id)
